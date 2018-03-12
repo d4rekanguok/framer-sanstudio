@@ -1,12 +1,12 @@
 import Framer from './framer'
 
-# overwrites TextLayer.defaultFont which yeild 'Type Error: Framer.Device is undefined'
-
-TextLayer::defaultFont = () -> """
+TextLayer.prototype.defaultFont = function () {
+    return `
     -apple-system,
     system-ui,
     BlinkMacSystemFont,
     "Segoe UI",
     "Roboto",
     "Helvetica Neue", Arial, sans-serif !default;
-"""
+    `
+}
