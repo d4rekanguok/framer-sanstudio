@@ -27,7 +27,7 @@ npm install
 
 ## Usage
 
-#Writing code
+### Writing code
 
 You can use either Coffeescript or Javascript.
 
@@ -43,13 +43,13 @@ Then open your browser & navigate to `localhost:9000` to view live project.
 If you want to use Coffeescript, modify the file `index.coffee` in `/src` folder.
 If you want to use Javascript, modify the file `index.js` in `/src` folder.
 
-#Assets & Media
+### Assets & Media
 Place them in the asset folder in src.
 
-#Copy and paste from Sketch
-Seems like [Perrymotors's copy-framer-code](https://github.com/perrysmotors/copy-framer-code) is the best bet right now. 
+### Copy and paste from Sketch
+Seems like [Perrymotors's copy-framer-code](https://github.com/perrysmotors/copy-framer-code) is the best bet right now. There's probably a way to improve the way it handles images...
 
-## Mobile Preview
+### Mobile Preview
 
 1. Find your ip address by running the command below:
 ```
